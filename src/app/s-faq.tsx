@@ -17,7 +17,7 @@ export function HomeFAQ() {
                     <div key={idx}>
                       <details className="w-full border-b border-[#FF6600]/10 p-6 group">
                         <summary className="flex items-center justify-between w-full cursor-pointer">
-                          <h3 className="text-white/90 text-3xl font-medium text-start">
+                          <h3 className="text-white/90 text-2xl lg:text-3xl font-medium text-start">
                             {info.question}
                           </h3>
                           <Plus className="text-white transition-transform duration-300 group-open:rotate-45" />
