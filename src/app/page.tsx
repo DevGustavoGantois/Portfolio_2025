@@ -1,3 +1,4 @@
+import { CustomCursor } from "@/components/c-custom-cursor";
 import { HomeAbout } from "./s-about";
 import { HomeFAQ } from "./s-faq";
 import { HomeHero } from "./s-home";
@@ -9,6 +10,7 @@ import { HomeTestimonials } from "./s-testimonials";
 export default function Page() {
   return (
     <>
+      <CustomCursor />
       <HomeHero />
       <HomeTechs />
       <HomeAbout />
