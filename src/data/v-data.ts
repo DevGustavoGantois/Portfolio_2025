@@ -29,3 +29,27 @@ export const navbarData = [
     href: "#",
   },
 ];
+
+export const faqData = [
+    {
+        title: "Perguntas Frequentes",
+        faq: [
+            {
+                question: "Como funciona meu processo criativo?",
+                answer: "",
+            },
+            {
+                question: "Quais stacks você domina?",
+                answer: "",
+            },
+            {
+                question: "Quantos anos você está na área?",
+                answer: "",
+            },
+            {
+                question: "Por que escolheu o UI/UX designer & desenvolvimento front-end?",
+                answer: "",
+            },
+        ]
+    }
+]

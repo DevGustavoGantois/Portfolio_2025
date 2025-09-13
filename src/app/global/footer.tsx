@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
     return (
-        <footer className="max-w-[1440px] mx-auto p-8">
+        <footer className="max-w-[1440px] mx-auto p-8 mt-10 lg:mt-[100px]">
             <div className="flex flex-col justify-center items-center gap-4">
                 <p className="text-white text-base text-center lg:text-xl">Vamos conversar?</p>
                 <h5 className="text-[#FF6600] uppercase text-center text-6xl lg:text-7xl xl:text-[100px] font-bold transition-all duration-1000 hover:drop-shadow-[#FF6600]/70 hover:shadow-2xl hover:-translate-y-4">
