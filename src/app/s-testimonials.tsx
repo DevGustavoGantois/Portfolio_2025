@@ -35,6 +35,7 @@ export function HomeTestimonials() {
                         <testimonial.icon className="text-yellow-400" size={20} />
                         <testimonial.icon className="text-yellow-400" size={20} />
                         <testimonial.icon className="text-yellow-400" size={20} />
+                        <testimonial.icon className="text-yellow-400" size={20} />
                     </figure>
                     <div className="flex flex-col gap-2">
                       <p className="text-white/70 text-base lg:text-lg max-w-[600px]">
