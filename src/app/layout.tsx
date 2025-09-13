@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Plus_Jakarta_Sans, Syne } from "next/font/google";
 import "./globals.css";
+import { Footer } from "./global/footer";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans",
@@ -24,10 +25,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/Logo.svg" />
+        <link rel="alternate icon" href="/Logo.svg" />
+      </head>
       <body
         className={`${plusJakartaSans.variable} ${syne.variable} antialiased`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
