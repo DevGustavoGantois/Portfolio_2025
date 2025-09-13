@@ -2,11 +2,11 @@
 import { ChevronRightCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import CountUp from "react-countup";
-
 export function HomeAbout() {
 
-
+  const [isProject, setIsProject] = useState([]);
 
   return (
     <section id="about" className="max-w-[1730px] mx-auto p-8 mt-10 lg:mt-[100px]">

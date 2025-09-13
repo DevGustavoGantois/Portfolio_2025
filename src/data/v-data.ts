@@ -45,7 +45,7 @@ export const homeProjectData = [
     title: "Projetos",
     cards: [
       {
-        href: "",
+        href: "https://fat-food-landing-page.vercel.app/",
         img: "/project1.png",
         title: "Projeto 1",
         date: "2025",
@@ -59,7 +59,7 @@ export const homeProjectData = [
         iconDev: Code,
       },
       {
-        href: "",
+        href: "https://www.bonfimtower.com.br/",
         img: "/project2.png",
         title: "Projeto 2",
         date: "2025",
