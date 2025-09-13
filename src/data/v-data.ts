@@ -1,5 +1,6 @@
 export const navbarData = [
     {
+        name: "Logo",
         Logo: "/Logo.svg",
         href: "/"
     },
