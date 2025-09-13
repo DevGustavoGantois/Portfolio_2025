@@ -6,7 +6,7 @@ import { NavbarMobile } from "./navbar-mobile";
 export function Navbar() {
     return (
         <>
-        <header className="max-w-[1440px] mx-auto p-8 border-b border-white/10">
+        <header className="max-w-[1440px] mx-auto p-8">
             <div className="hidden xl:flex flex-col lg:flex-row items-center justify-between gap-4">
                 {navbarData.map((item, index) => {
                     return (
