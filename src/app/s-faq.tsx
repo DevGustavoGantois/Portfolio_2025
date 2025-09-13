@@ -4,7 +4,7 @@ import { Plus } from "lucide-react";
 export function HomeFAQ() {
   return (
     <>
-      <section className="max-w-[1440px] mx-auto p-8">
+      <section id="faq" className="max-w-[1440px] mx-auto p-8">
         <div className="w-full flex-1">
           {faqData.map((item, index) => {
             return (

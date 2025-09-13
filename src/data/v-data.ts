@@ -12,7 +12,7 @@ export const navbarData = [
   },
   {
     name: "Projetos",
-    href: "#project",
+    href: "#projects",
   },
   {
     name: "Depoimentos",

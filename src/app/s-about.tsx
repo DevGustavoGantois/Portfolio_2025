@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 
 export function HomeAbout() {
   return (
-    <section className="max-w-[1730px] mx-auto p-8 mt-10 lg:mt-[100px]">
+    <section id="about" className="max-w-[1730px] mx-auto p-8 mt-10 lg:mt-[100px]">
       <div className="border border-[#FF6600]/10 rounded-2xl py-6 px-8 flex flex-col lg:flex-row gap-8">
         <div className="flex-1 grid grid-cols-1 lg:grid-cols-2 gap-6">
           <figure className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4">

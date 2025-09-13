@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function HomeHero() {
   return (
-    <div className="relative flex h-[35rem] lg:h-[40rem] w-full overflow-hidden rounded-md bg-[#0011]/[0.96] antialiased md:items-center md:justify-center">
+    <div id="home" className="relative flex h-[35rem] lg:h-[40rem] w-full overflow-hidden rounded-md bg-[#0011]/[0.96] antialiased md:items-center md:justify-center">
       <div
         className={cn(
           "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",

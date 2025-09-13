@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 export function HomeTestimonials() {
   return (
-    <section className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 py-12">
+    <section id="testimonials" className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 py-12">
       {testimonialData.map((item, index) => (
         <div key={index} className="mb-16">
           <article className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 mb-10">

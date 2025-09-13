@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function HomeProjects() {
   return (
-    <section className="mx-auto md:p-20 lg:p-8 max-w-[1730px]">
+    <section id="projects" className="mx-auto md:p-20 lg:p-8 max-w-[1730px]">
       {homeProjectData.map((item, index) => (
         <div key={index} className="w-full flex-1 mb-16">
           <article className="flex items-center justify-center mb-8">
