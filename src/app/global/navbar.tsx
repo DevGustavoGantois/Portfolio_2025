@@ -1,6 +1,7 @@
 import { navbarData } from "@/data/v-data";
 import Image from "next/image";
 import Link from "next/link";
+import { NavbarMobile } from "./navbar-mobile";
 
 export function Navbar() {
     return (
