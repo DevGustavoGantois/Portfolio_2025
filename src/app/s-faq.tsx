@@ -10,7 +10,7 @@ export function HomeFAQ() {
             return (
               <article className="w-full flex-1" key={index}>
                 <div className="flex flex-col justify-center items-center mb-11">
-                  <h1 className="text-white text-5xl">{item.title}</h1>
+                  <h1 className="text-white text-center text-5xl">{item.title}</h1>
                 </div>
                 {item.faq.map((info, idx) => {
                   return (
