@@ -39,13 +39,6 @@ export const techsData = [
   }
 ];
 
-export const aboutData = [
-  {
-    cards: [
-
-    ]
-  }
-]
 
 export const homeProjectData = [
   {
