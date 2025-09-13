@@ -1,4 +1,4 @@
-import { Code, Figma, Star } from "lucide-react";
+import { Code, Figma, Globe, Star } from "lucide-react";
 
 export const navbarData = [
   { Logo: "/Logo.svg", href: "/" },
@@ -31,6 +31,14 @@ export const navbarData = [
     href: "#",
   },
 ];
+
+export const heroData = {
+  title: "Junior Developer & UI UX Desginer",
+  description: "Construindo projetos que combinam estética, performance e boas práticas de código, sempre focado em criar experiências digitais envolventes, acessíveis e que realmente gerem impacto positivo para os usuários",
+  btnProject: "Projetos",
+  icon: Globe,
+  btnText: "Saiba mais",
+};
 
 export const techsData = [
   {

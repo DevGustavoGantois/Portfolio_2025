@@ -28,7 +28,7 @@ export function HomeTestimonials() {
           >
             {item.cards.map((testimonial, idx) => (
               <SwiperSlide key={idx}>
-                <div className="flex flex-col items-start justify-start gap-4 p-12 border border-white/10 rounded-2xl bg-black/20">
+                <div className="flex flex-col items-start justify-start gap-4 p-12 border border-[#FF6600]/10 rounded-2xl bg-black/20">
                   <div className="flex flex-col items-start gap-4">
                     <figure className="flex items-center gap-2">
                         <testimonial.icon className="text-yellow-400" size={20} />
