@@ -30,6 +30,13 @@ export const navbarData = [
   },
 ];
 
+export const techsData = [
+  {
+    title: "Tecnologias que utilizo",
+    techs: ["/html.svg", "/css.svg", "/javascript.svg", "/typescript.svg", "/react.svg", "/vscode.svg", "/figma.svg", "/git.svg"]
+  }
+]
+
 export const faqData = [
     {
         title: "Perguntas Frequentes",

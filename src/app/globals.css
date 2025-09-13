@@ -31,6 +31,22 @@
   }
 }
 
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: slide 20s linear infinite; 
+}
+
+.carousel-slide {
+  flex: 0 0 auto; 
+  margin-right: 2rem;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
