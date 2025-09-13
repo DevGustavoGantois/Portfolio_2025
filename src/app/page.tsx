@@ -50,7 +50,9 @@ export default function Page() {
 
       {!isLoading && (
         <>
-          <CustomCursor />
+          <div className="hidden lg:flex">
+            <CustomCursor />
+          </div>
           <HomeHero />
           <HomeTechs />
           <HomeAbout />
