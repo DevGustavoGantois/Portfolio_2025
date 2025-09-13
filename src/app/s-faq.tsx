@@ -15,7 +15,7 @@ export function HomeFAQ() {
                 {item.faq.map((info, idx) => {
                   return (
                     <div key={idx}>
-                      <details className="w-full border-b border-[#FF6600]/20 p-6 group">
+                      <details className="w-full border-b border-[#FF6600]/10 p-6 group">
                         <summary className="flex items-center justify-between w-full cursor-pointer">
                           <h3 className="text-white text-3xl font-medium text-start">
                             {info.question}
