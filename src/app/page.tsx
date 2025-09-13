@@ -37,7 +37,7 @@ export default function Page() {
               className="flex flex-col items-center gap-4"
             >
               <Image
-                src="/logo.svg"
+                src="/Logo.svg"
                 alt="Logo"
                 width={300}
                 height={300}
