@@ -177,19 +177,19 @@ export const faqData = [
         faq: [
             {
                 question: "Como funciona meu processo criativo?",
-                answer: "",
+                answer: "Meu processo criativo começa sempre pela pesquisa e entendimento do problema. Gosto de analisar referências, estudar o público-alvo e entender a experiência que precisa ser entregue. Depois parto para o esboço e prototipagem no Figma, onde organizo ideias visuais e fluxo de navegação. Só então transformo esse design em interfaces funcionais, aplicando boas práticas de UI/UX, acessibilidade e consistência visual. Sempre busco alinhar estética com usabilidade.",
             },
             {
                 question: "Quais stacks você domina?",
-                answer: "",
+                answer: "Domino as tecnologias essenciais para o desenvolvimento front-end moderno: HTML, CSS, JavaScript – base sólida para qualquer projeto web. React.js e Next.js – para criação de aplicações performáticas e escaláveis. Tailwind CSS e Styled Components – para estilização rápida e organizada. TypeScript – para segurança e tipagem em projetos maiores. Figma & Framer – para design de interfaces e prototipagem interativa.",
             },
             {
                 question: "Quantos anos você está na área?",
-                answer: "",
+                answer: "Atuo há cerca de 1 ano na área, dedicando esse tempo ao aprendizado constante e ao desenvolvimento de projetos práticos que me ajudaram a consolidar meus conhecimentos em UI/UX e front-end.",
             },
             {
                 question: "Por que escolheu o UI/UX designer & desenvolvimento front-end?",
-                answer: "",
+                answer: "Escolhi essa área porque gosto de transformar ideias em experiências digitais reais. O design me dá a chance de explorar minha criatividade, enquanto o front-end me permite ver tudo funcionando na prática. Essa combinação de design + código me motiva, porque consigo entregar produtos completos, bonitos e funcionais. Além disso, acredito que uma boa interface pode impactar positivamente a experiência das pessoas com tecnologia.",
             },
         ]
     }
