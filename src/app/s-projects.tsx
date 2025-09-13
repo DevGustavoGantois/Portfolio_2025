@@ -19,7 +19,7 @@ export function HomeProjects() {
                 key={idx}
                 className="w-full flex-1 border border-white/10 rounded-2xl py-5 px-2"
               >
-                <div className="flex flex-col justify-center lg:justify-start items-center gap-6 px-2 py-8">
+                <div className="flex flex-col justify-center lg:justify-start items-center gap-6">
                   <figure className="w-full bg-black/5 overflow-hidden rounded-lg">
                     {project.img && (
                       <Link
