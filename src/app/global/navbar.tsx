@@ -25,7 +25,7 @@ export function Navbar() {
                                     )}
                                 </ul>
                                 {item.btnText && (
-                                    <button className="border border-white/10 rounded-2xl bg-black text-white text-base lg:text-xl duration-1000 hover:bg-transparent px-8 py-3 hover:border hover:border-[#FF6600]">
+                                    <button className="border border-white/10 rounded-2xl bg-black text-white text-base lg:text-xl duration-1000 hover:bg-[#FF6600] px-8 py-3 hover:border hover:border-[#FF6600]">
                                         <Link href={item.href} target="_blank" rel="noopener noreferrer">
                                             {item.btnText}
                                         </Link>
@@ -36,7 +36,7 @@ export function Navbar() {
                     )
                 })}
             </div>
-            <div className="flex lg:hidden">
+            <div className="flex xl:hidden">
                 <NavbarMobile />
             </div>
         </header>

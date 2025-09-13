@@ -38,6 +38,15 @@ export const techsData = [
     techs: ["/html.svg", "/css.svg", "/javascript.svg", "/typescript.svg", "/react.svg", "/vscode.svg", "/figma.svg", "/git.svg"]
   }
 ];
+
+export const aboutData = [
+  {
+    cards: [
+      
+    ]
+  }
+]
+
 export const homeProjectData = [
   {
     title: "Projetos",
