@@ -102,7 +102,7 @@ export const homeProjectData = [
       },
       {
         href: "",
-        img: "/project5.png",
+        img: "/project1.png",
         title: "Projeto 5",
         date: "2025",
         description: "Dashboard para gerenciamento de dados com gráficos e relatórios dinâmicos.",
@@ -116,7 +116,7 @@ export const homeProjectData = [
       },
       {
         href: "",
-        img: "/project6.png",
+        img: "/project5.png",
         title: "Projeto 6",
         date: "2025",
         description: "E-commerce moderno com carrinho de compras e integração de pagamentos.",
