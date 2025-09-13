@@ -28,7 +28,7 @@ export const navbarData = [
   },
   {
     btnText: "Entrar em contato via Whatsapp",
-    href: "#",
+    href: "https://api.whatsapp.com/send?phone=5571999588246&text=Ol%C3%A1%20Gustavo!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
   },
 ];
 

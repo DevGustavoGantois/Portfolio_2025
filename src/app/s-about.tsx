@@ -56,7 +56,8 @@ export function HomeAbout() {
                 Leve a sua experiência de codificação e design para outro nível!
               </p>
               <Link
-                href="#contato"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5571999588246&text=Ol%C3%A1%20Gustavo!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
                 className="border border-[#FF6600]/20 px-8 py-3 rounded-full uppercase text-lg hover:bg-[#FF6600]/20 transition flex items-center gap-1"
               >
                 Entre em contato

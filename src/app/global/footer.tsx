@@ -6,7 +6,7 @@ export function Footer() {
             <div className="flex flex-col justify-center items-center gap-4">
                 <p className="text-white text-base text-center lg:text-xl">Vamos conversar?</p>
                 <h5 className="text-[#FF6600] uppercase text-center text-6xl lg:text-7xl xl:text-[100px] font-bold transition-all duration-1000 hover:drop-shadow-[#FF6600]/70 hover:shadow-2xl hover:-translate-y-4">
-                    <Link href="https://wa.me/557498052059" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://api.whatsapp.com/send?phone=5571999588246&text=Ol%C3%A1%20Gustavo!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">
                         Entre em contato
                     </Link>
                 </h5>
