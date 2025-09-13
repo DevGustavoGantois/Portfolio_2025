@@ -138,33 +138,33 @@ export const testimonialData = [
     description: "Feedbacks de clientes, parceiros e colegas que vivenciaram minha jornada profissional.",
     cards: [
      {
-       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
-        name: "Nome 1",
-        work: "Front-end Development",
+       description: "Ótimo trabalho! O site está responsivo e com uma ótima experiência de usuário, design excepcional com animações bem leves e reativas como eu esperava. Meus parabéns!",
+        name: "Eduardo Sávio",
+        work: "CEO Novascee",
         icon: Star
      },
      {
-       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
-        name: "Nome 2",
-        work: "Front-end Development",
+       description: "Irmão está muito bom o site, ficou perfeito!",
+        name: "Matheus Hayash",
+        work: "Médico",
         icon: Star
      },
      {
-       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
-        name: "Nome 3",
-        work: "Front-end Development",
+       description: "Site ficou muito bom, convence muito bem o cliente de fechar a compra, me poupa muito o trabalho de vender no boca a boca, entregou dentro do prazo e supriu todas as minhas expectativas",
+        name: "Samuel Fernandes",
+        work: "Coach de Bodybuilding",
         icon: Star
      },
      {
-       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
-        name: "Nome 4",
-        work: "Front-end Development",
+       description: "Guga, você é o cara, o site ficou muito bom, você conseguiu transmitir dentro do site exatamente o que eu te pedi.",
+        name: "Maurício Sampaio",
+        work: "Advogado",
         icon: Star
      },
      {
-       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
-        name: "Nome 5",
-        work: "Front-end Development",
+       description: "Ficou show Gustavo! O site ficou perfeito e transmitiu o que eu quero passar para os meus clientes!",
+        name: "Mônica Aran",
+        work: "Psicóloga",
         icon: Star
      },
     ]
