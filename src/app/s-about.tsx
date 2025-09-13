@@ -5,6 +5,9 @@ import Link from "next/link";
 import CountUp from "react-countup";
 
 export function HomeAbout() {
+
+  
+
   return (
     <section id="about" className="max-w-[1730px] mx-auto p-8 mt-10 lg:mt-[100px]">
       <div className="border border-[#FF6600]/10 rounded-2xl py-6 px-8 flex flex-col lg:flex-row gap-8">

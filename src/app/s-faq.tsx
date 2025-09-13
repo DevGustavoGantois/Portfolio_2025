@@ -22,7 +22,7 @@ export function HomeFAQ() {
                           </h3>
                           <Plus className="text-white transition-transform duration-300 group-open:rotate-45" />
                         </summary>
-                        <p className="text-white/70 text-center lg:text-start text-base max-w-[1200px] mt-2">
+                        <p className="text-white/70 text-start text-base max-w-[1200px] mt-2">
                           {info.answer}
                         </p>
                       </details>
