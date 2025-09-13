@@ -7,7 +7,10 @@ import "swiper/css/pagination";
 
 export function HomeTestimonials() {
   return (
-    <section id="testimonials" className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 py-12">
+    <section
+      id="testimonials"
+      className="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 py-12"
+    >
       {testimonialData.map((item, index) => (
         <div key={index} className="mb-16">
           <article className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 mb-10">
@@ -25,17 +28,28 @@ export function HomeTestimonials() {
             loop={true}
             autoplay={{ delay: 5000, disableOnInteraction: false }}
             pagination={{ clickable: true }}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+              },
+              640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+            }}
           >
             {item.cards.map((testimonial, idx) => (
               <SwiperSlide key={idx}>
                 <div className="flex flex-col items-start justify-start gap-4 p-12 border border-[#FF6600]/10 rounded-2xl bg-black/20">
                   <div className="flex flex-col items-start gap-4">
                     <figure className="flex items-center gap-2">
-                        <testimonial.icon className="text-yellow-400" size={20} />
-                        <testimonial.icon className="text-yellow-400" size={20} />
-                        <testimonial.icon className="text-yellow-400" size={20} />
-                        <testimonial.icon className="text-yellow-400" size={20} />
-                        <testimonial.icon className="text-yellow-400" size={20} />
+                      <testimonial.icon className="text-yellow-400" size={20} />
+                      <testimonial.icon className="text-yellow-400" size={20} />
+                      <testimonial.icon className="text-yellow-400" size={20} />
+                      <testimonial.icon className="text-yellow-400" size={20} />
+                      <testimonial.icon className="text-yellow-400" size={20} />
                     </figure>
                     <div className="flex flex-col gap-2">
                       <p className="text-white/70 text-base lg:text-lg max-w-[600px]">
@@ -45,7 +59,9 @@ export function HomeTestimonials() {
                         <h1 className="text-white text-base lg:text-lg font-semibold">
                           {testimonial.name}
                         </h1>
-                        <p className="text-white/50 text-sm">{testimonial.work}</p>
+                        <p className="text-white/50 text-sm">
+                          {testimonial.work}
+                        </p>
                       </div>
                     </div>
                   </div>

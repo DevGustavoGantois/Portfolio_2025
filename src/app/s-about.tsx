@@ -24,7 +24,7 @@ export function HomeAbout() {
 
           <figure className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4">
             <h1 className="text-[#FF6600] text-4xl lg:text-6xl">
-              +<CountUp end={110} duration={4} />
+              +<CountUp end={113} duration={4} />
             </h1>
             <h2 className="text-white text-2xl lg:text-3xl">Projetos</h2>
             <p className="text-white/60 text-base">
