@@ -1,4 +1,4 @@
-import { Code, Figma } from "lucide-react";
+import { Code, Figma, Star } from "lucide-react";
 
 export const navbarData = [
   { Logo: "/Logo.svg", href: "/" },
@@ -42,7 +42,7 @@ export const techsData = [
 export const aboutData = [
   {
     cards: [
-      
+
     ]
   }
 ]
@@ -139,6 +139,44 @@ export const homeProjectData = [
   },
 ];
 
+export const testimonialData = [
+  {
+    title: "Depoimentos",
+    description: "Feedbacks de clientes, parceiros e colegas que vivenciaram minha jornada profissional.",
+    cards: [
+     {
+       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
+        name: "Nome 1",
+        work: "Front-end Development",
+        icon: Star
+     },
+     {
+       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
+        name: "Nome 2",
+        work: "Front-end Development",
+        icon: Star
+     },
+     {
+       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
+        name: "Nome 3",
+        work: "Front-end Development",
+        icon: Star
+     },
+     {
+       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
+        name: "Nome 4",
+        work: "Front-end Development",
+        icon: Star
+     },
+     {
+       description: "Migrar para a TechBank foi a melhor decisão que tomamos. Ganhamos agilidade e tranquilidade no dia a dia.",
+        name: "Nome 5",
+        work: "Front-end Development",
+        icon: Star
+     },
+    ]
+  }
+]
 
 export const faqData = [
     {
