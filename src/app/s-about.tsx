@@ -2,11 +2,25 @@
 import { ChevronRightCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CountUp from "react-countup";
-export function HomeAbout() {
+import axios from "axios";
 
-  const [isProject, setIsProject] = useState([]);
+export function HomeAbout() {
+  const [projectsCount, setProjectsCount] = useState(0);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      try {
+        const response = await axios.get("https://api.github.com/users/DevGustavoGantois/repos?per_page=100"); 
+        setProjectsCount(response.data.length); 
+      } catch (error) {
+        console.log("Erro ao chamar a API:", error);
+      }
+    };
+
+    fetchProjects();
+  }, []);
 
   return (
     <section id="about" className="max-w-[1730px] mx-auto p-8 mt-10 lg:mt-[100px]">
@@ -24,11 +38,11 @@ export function HomeAbout() {
 
           <figure className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4">
             <h1 className="text-[#FF6600] text-4xl lg:text-6xl">
-              +<CountUp end={113} duration={4} />
+              +<CountUp end={projectsCount} duration={4} />
             </h1>
             <h2 className="text-white text-2xl lg:text-3xl">Projetos</h2>
             <p className="text-white/60 text-base">
-              +110 projetos desenvolvidos para aperfeiçoamento do meu trabalho como profissional
+              Projetos desenvolvidos para aperfeiçoamento do meu trabalho como profissional
             </p>
           </figure>
 
@@ -42,6 +56,7 @@ export function HomeAbout() {
             </p>
           </figure>
         </div>
+
         <div className="relative w-full lg:w-[500px] flex justify-center items-start">
           <div className="relative overflow-hidden rounded-2xl group w-full">
             <Image
