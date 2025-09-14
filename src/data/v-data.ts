@@ -49,7 +49,7 @@ export const homeProjectData = [
         img: "/project1.png",
         title: "Projeto 1",
         date: "2025",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        description: "O Fat Food é um projeto pessoal desenvolvido como landing page para um aplicativo fictício de delivery de fast food. A ideia foi criar uma interface moderna, responsiva e atraente, destacando os principais recursos do app.",
         tags: [
           { tag: "Figma" },
           { tag: "Web Development" },
@@ -63,7 +63,7 @@ export const homeProjectData = [
         img: "/project2.png",
         title: "Projeto 2",
         date: "2025",
-        description: "Projeto focado em UI/UX e design responsivo para web.",
+        description: "O Bonfim Tower é uma landing page institucional criada para apresentar um empreendimento imobiliário em Senhor do Bonfim (BA).",
         tags: [
           { tag: "UI/UX" },
           { tag: "Tailwind" },
@@ -77,7 +77,7 @@ export const homeProjectData = [
         img: "/project3.png",
         title: "Projeto 3",
         date: "2025",
-        description: "Aplicativo mobile com integração de API e autenticação de usuário.",
+        description: "O Tech Bank é um projeto conceitual de Aplicativo Mobile para um banco digital fictício, com foco em transmitir segurança, inovação e acessibilidade.",
         tags: [
           { tag: "Figma" },
           { tag: "Mobile App" },
@@ -105,7 +105,7 @@ export const homeProjectData = [
         img: "/project1.png",
         title: "Projeto 5",
         date: "2025",
-        description: "Dashboard para gerenciamento de dados com gráficos e relatórios dinâmicos.",
+        description: "Finexa é uma plataforma web no modelo SaaS desenvolvida para oferecer uma experiência moderna de gestão bancária digital.",
         tags: [
           { tag: "Figma" },
           { tag: "Web Development" },
@@ -119,7 +119,7 @@ export const homeProjectData = [
         img: "/project5.png",
         title: "Projeto 6",
         date: "2025",
-        description: "E-commerce moderno com carrinho de compras e integração de pagamentos.",
+        description: "O layout da Landing page do TechBank foi desenvolvido com uma estética tecnológica e clean, apresentando seções como abertura de conta, benefícios do cartão digital e depoimentos de clientes.",
         tags: [
           { tag: "Tailwind" },
           { tag: "Next.js" },
