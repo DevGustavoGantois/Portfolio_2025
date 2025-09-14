@@ -21,7 +21,6 @@ export function HomeProjects() {
                 className="w-full flex-1 border border-white/10 rounded-2xl py-5 px-2"
               >
                 <div className="flex flex-col justify-center lg:justify-start items-center gap-6">
-                  {/* Figura com overlay */}
                   <figure className="w-full relative overflow-hidden rounded-lg group">
                     {project.img && (
                       <Image
@@ -33,33 +32,29 @@ export function HomeProjects() {
                         className="object-cover w-full h-auto transition-transform duration-1000 group-hover:scale-105 rounded-lg"
                       />
                     )}
-
-                    {/* Overlay */}
                     <div className="absolute inset-0 bg-black/50 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                       {project.iconFigma && project.figmaLink && (
-                        <a
+                        <Link
                           href={project.figmaLink}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white hover:text-[#FF6600] transition-colors duration-300"
                         >
                           <project.iconFigma size={36} />
-                        </a>
+                        </Link>
                       )}
                       {project.iconLinkedin && project.linkedinLink && (
-                        <a
+                        <Link
                           href={project.linkedinLink}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white hover:text-[#FF6600] transition-colors duration-300"
                         >
                           <project.iconLinkedin size={36} />
-                        </a>
+                        </Link>
                       )}
                     </div>
                   </figure>
-
-                  {/* Conteúdo do card */}
                   <article className="flex flex-col gap-4 justify-start w-full mt-4">
                     <div className="flex items-center justify-between">
                       <h1 className="text-white/90 text-base lg:text-xl">
@@ -75,7 +70,6 @@ export function HomeProjects() {
                     </p>
 
                     <div className="flex items-center justify-between w-full mt-2">
-                      {/* Tags */}
                       <div className="flex flex-wrap gap-2">
                         {project.tags.map((tagObj, i) => (
                           <span
@@ -86,8 +80,6 @@ export function HomeProjects() {
                           </span>
                         ))}
                       </div>
-
-                      {/* Ícones de Design e Dev */}
                       <div className="flex items-center justify-end gap-2">
                         {project.iconDesign && (
                           <project.iconDesign className="text-white/50" size={24} />
