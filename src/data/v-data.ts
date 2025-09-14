@@ -1,4 +1,4 @@
-import { Code, Figma, Star } from "lucide-react";
+import { Code, Figma, Linkedin, Star } from "lucide-react";
 
 export const navbarData = [
   { Logo: "/Logo.svg", href: "/" },
@@ -57,6 +57,10 @@ export const homeProjectData = [
         ],
         iconDesign: Figma,
         iconDev: Code,
+        iconFigma: Figma,
+        figmaLink: "#",
+        linkedinLink: "#",
+        iconLinkedin: Linkedin
       },
       {
         href: "https://www.bonfimtower.com.br/",
@@ -71,6 +75,10 @@ export const homeProjectData = [
         ],
         iconDesign: Figma,
         iconDev: Code,
+        iconFigma: Figma,
+        figmaLink: "#",
+        linkedinLink: "#",
+        iconLinkedin: Linkedin
       },
       {
         href: "",
@@ -85,6 +93,10 @@ export const homeProjectData = [
         ],
         iconDesign: Figma,
         iconDev: Code,
+        iconFigma: Figma,
+        figmaLink: "#",
+        linkedinLink: "#",
+        iconLinkedin: Linkedin
       },
       {
         href: "",
@@ -99,6 +111,10 @@ export const homeProjectData = [
         ],
         iconDesign: Figma,
         iconDev: Code,
+        iconFigma: Figma,
+        figmaLink: "#",
+        linkedinLink: "#",
+        iconLinkedin: Linkedin
       },
       {
         href: "",
@@ -113,6 +129,10 @@ export const homeProjectData = [
         ],
         iconDesign: Figma,
         iconDev: Code,
+        iconFigma: Figma,
+        figmaLink: "#",
+        linkedinLink: "#",
+        iconLinkedin: Linkedin
       },
       {
         href: "",
@@ -127,6 +147,10 @@ export const homeProjectData = [
         ],
         iconDesign: Figma,
         iconDev: Code,
+        iconFigma: Figma,
+        figmaLink: "#",
+        linkedinLink: "#",
+        iconLinkedin: Linkedin
       },
     ],
   },

@@ -1,3 +1,4 @@
+"use client";
 import { homeProjectData } from "@/data/v-data";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,27 +21,46 @@ export function HomeProjects() {
                 className="w-full flex-1 border border-white/10 rounded-2xl py-5 px-2"
               >
                 <div className="flex flex-col justify-center lg:justify-start items-center gap-6">
-                  <figure className="w-full bg-black/5 overflow-hidden rounded-lg">
+                  {/* Figura com overlay */}
+                  <figure className="w-full relative overflow-hidden rounded-lg group">
                     {project.img && (
-                      <Link
-                        href={project.href || "#"}
-                        target={project.href ? "_blank" : undefined}
-                      >
-                        <div className="relative w-full h-0 pb-[100%]">
-                          {" "}
-                          <Image
-                            priority
-                            src={project.img}
-                            alt={project.title}
-                            fill
-                            className="object-cover rounded-lg transition-transform duration-1000 hover:scale-105"
-                          />
-                        </div>
-                      </Link>
+                      <Image
+                        priority
+                        src={project.img}
+                        alt={project.title}
+                        width={500}
+                        height={500}
+                        className="object-cover w-full h-auto transition-transform duration-1000 group-hover:scale-105 rounded-lg"
+                      />
                     )}
+
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                      {project.iconFigma && project.figmaLink && (
+                        <a
+                          href={project.figmaLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white hover:text-[#FF6600] transition-colors duration-300"
+                        >
+                          <project.iconFigma size={36} />
+                        </a>
+                      )}
+                      {project.iconLinkedin && project.linkedinLink && (
+                        <a
+                          href={project.linkedinLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white hover:text-[#FF6600] transition-colors duration-300"
+                        >
+                          <project.iconLinkedin size={36} />
+                        </a>
+                      )}
+                    </div>
                   </figure>
 
-                  <article className="flex flex-col gap-4 justify-start w-full">
+                  {/* Conteúdo do card */}
+                  <article className="flex flex-col gap-4 justify-start w-full mt-4">
                     <div className="flex items-center justify-between">
                       <h1 className="text-white/90 text-base lg:text-xl">
                         {project.title}
@@ -49,11 +69,13 @@ export function HomeProjects() {
                         {project.date}
                       </h2>
                     </div>
+
                     <p className="text-white/70 text-base lg:text-xl text-start max-w-[700px]">
                       {project.description}
                     </p>
 
-                    <div className="flex items-center justify-between w-full">
+                    <div className="flex items-center justify-between w-full mt-2">
+                      {/* Tags */}
                       <div className="flex flex-wrap gap-2">
                         {project.tags.map((tagObj, i) => (
                           <span
@@ -65,12 +87,14 @@ export function HomeProjects() {
                         ))}
                       </div>
 
+                      {/* Ícones de Design e Dev */}
                       <div className="flex items-center justify-end gap-2">
-                        <project.iconDesign
-                          className="text-white/50"
-                          size={24}
-                        />
-                        <project.iconDev className="text-white/50" size={24} />
+                        {project.iconDesign && (
+                          <project.iconDesign className="text-white/50" size={24} />
+                        )}
+                        {project.iconDev && (
+                          <project.iconDev className="text-white/50" size={24} />
+                        )}
                       </div>
                     </div>
                   </article>
