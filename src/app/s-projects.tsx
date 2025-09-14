@@ -53,8 +53,19 @@ export function HomeProjects() {
                           <project.iconLinkedin size={36} />
                         </Link>
                       )}
+                      {project.iconDev && project.websiteLink && (
+                        <Link
+                          href={project.websiteLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white hover:text-[#FF6600] transition-colors duration-300"
+                        >
+                          <project.iconDev size={36} />
+                        </Link>
+                      )}
                     </div>
                   </figure>
+
                   <article className="flex flex-col gap-4 justify-start w-full mt-4">
                     <div className="flex items-center justify-between">
                       <h1 className="text-white/90 text-base lg:text-xl">
@@ -81,8 +92,8 @@ export function HomeProjects() {
                         ))}
                       </div>
                       <div className="flex items-center justify-end gap-2">
-                        {project.iconDesign && (
-                          <project.iconDesign className="text-white/50" size={24} />
+                        {project.iconFigma && (
+                          <project.iconFigma className="text-white/50" size={24} />
                         )}
                         {project.iconDev && (
                           <project.iconDev className="text-white/50" size={24} />

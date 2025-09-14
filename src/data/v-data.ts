@@ -1,4 +1,4 @@
-import { Code, Figma, Linkedin, Star } from "lucide-react";
+import { Code, Figma, Link, Linkedin, Star } from "lucide-react";
 
 export const navbarData = [
   { Logo: "/Logo.svg", href: "/" },
@@ -55,12 +55,13 @@ export const homeProjectData = [
           { tag: "Web Development" },
           { tag: "Mobile App" },
         ],
-        iconDesign: Figma,
-        iconDev: Code,
         iconFigma: Figma,
         figmaLink: "#",
+        iconDev: Code,
+        websiteLink: "https://fat-food-landing-page.vercel.app/",
+        iconLinkedin: Linkedin,
         linkedinLink: "#",
-        iconLinkedin: Linkedin
+        iconLink: Link,
       },
       {
         href: "https://www.bonfimtower.com.br/",
@@ -73,12 +74,13 @@ export const homeProjectData = [
           { tag: "Tailwind" },
           { tag: "Next.js" },
         ],
-        iconDesign: Figma,
-        iconDev: Code,
         iconFigma: Figma,
         figmaLink: "#",
+        iconDev: Code,
+        websiteLink: "https://www.bonfimtower.com.br/",
+        iconLinkedin: Linkedin,
         linkedinLink: "#",
-        iconLinkedin: Linkedin
+        iconLink: Link,
       },
       {
         href: "",
@@ -91,12 +93,13 @@ export const homeProjectData = [
           { tag: "Mobile App" },
           { tag: "Next.js" },
         ],
-        iconDesign: Figma,
-        iconDev: Code,
         iconFigma: Figma,
         figmaLink: "#",
+        iconDev: Code,
+        websiteLink: "",
+        iconLinkedin: Linkedin,
         linkedinLink: "#",
-        iconLinkedin: Linkedin
+        iconLink: Link,
       },
       {
         href: "",
@@ -109,12 +112,13 @@ export const homeProjectData = [
           { tag: "UI/UX" },
           { tag: "Tailwind" },
         ],
-        iconDesign: Figma,
-        iconDev: Code,
         iconFigma: Figma,
         figmaLink: "#",
+        iconDev: Code,
+        websiteLink: "",
+        iconLinkedin: Linkedin,
         linkedinLink: "#",
-        iconLinkedin: Linkedin
+        iconLink: Link,
       },
       {
         href: "",
@@ -127,12 +131,13 @@ export const homeProjectData = [
           { tag: "Web Development" },
           { tag: "UI/UX" },
         ],
-        iconDesign: Figma,
-        iconDev: Code,
         iconFigma: Figma,
         figmaLink: "#",
+        iconDev: Code,
+        websiteLink: "",
+        iconLinkedin: Linkedin,
         linkedinLink: "#",
-        iconLinkedin: Linkedin
+        iconLink: Link,
       },
       {
         href: "",
@@ -145,17 +150,17 @@ export const homeProjectData = [
           { tag: "Next.js" },
           { tag: "Mobile App" },
         ],
-        iconDesign: Figma,
-        iconDev: Code,
         iconFigma: Figma,
         figmaLink: "#",
+        iconDev: Code,
+        websiteLink: "",
+        iconLinkedin: Linkedin,
         linkedinLink: "#",
-        iconLinkedin: Linkedin
+        iconLink: Link,
       },
     ],
   },
 ];
-
 export const testimonialData = [
   {
     title: "Depoimentos",
