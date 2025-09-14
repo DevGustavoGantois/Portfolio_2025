@@ -9,6 +9,7 @@ import { HomeTestimonials } from "./s-testimonials";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { CustomRedirectButton } from "@/components/ui/c-custom-redirect-btn";
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(true);
@@ -59,6 +60,7 @@ export default function Page() {
           <HomeProjects />
           <HomeTestimonials />
           <HomeFAQ />
+          <CustomRedirectButton />
         </>
       )}
     </>
