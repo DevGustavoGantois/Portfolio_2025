@@ -101,6 +101,13 @@ export function HomeProjects() {
                       </div>
                     </div>
                   </article>
+                  <div className="flex lg:hidden justify-center items-center w-full">
+                    <button className="w-full border border-white/10 py-3 px-6 text-white rounded-lg">
+                        <Link href={project.href} target="_blank">
+                        Ver projeto
+                        </Link>
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
