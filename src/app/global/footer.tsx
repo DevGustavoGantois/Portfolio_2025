@@ -1,3 +1,4 @@
+import { Dribbble, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -19,6 +20,33 @@ export function Footer() {
                     </Link>
                 </p>
             </article>
+            <div className="flex items-center flex-wrap justify-center lg:justify-end gap-2">
+                <div className="rounded-full border border-white/20 p-4">
+                    <Link href="https://www.linkedin.com/in/gustavo-gantois-2839b5168/" target="_blank">
+                    <Linkedin size={20} className="text-white transition-all duration-700 hover:text-[#FF6600]" />
+                    </Link>
+                </div>
+                <div className="rounded-full border border-white/20 p-4">
+                    <Link href="https://x.com/Guga_UI_UX_Dev" target="_blank">
+                    <Twitter className="text-white transition-all duration-700 hover:text-[#FF6600]" size={16} />
+                    </Link>
+                </div>
+                <div className="rounded-full border border-white/20 p-4">
+                    <Link href="https://www.instagram.com/devgustavogantois_/" target="_blank">
+                    <Instagram size={20} className="text-white transition-all duration-700 hover:text-[#FF6600]" />
+                    </Link>
+                </div>
+                <div className="rounded-full border border-white/20 p-4">
+                    <Link href="https://dribbble.com/DevGustavoGantois" target="_blank">
+                    <Dribbble size={20} className="text-white transition-all duration-700 hover:text-[#FF6600]" />
+                    </Link>
+                </div>
+                <div className="rounded-full border border-white/20 p-4">
+                    <Link href="https://github.com/DevGustavoGantois" target="_blank">
+                    <Github size={20} className="text-white transition-all duration-700 hover:text-[#FF6600]" />
+                    </Link>
+                </div>
+            </div>
         </footer>
     )
 }
