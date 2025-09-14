@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
-import { Globe,  } from "lucide-react";
+import { Globe} from "lucide-react";
 import Link from "next/link";
 
 export function HomeHero() {
