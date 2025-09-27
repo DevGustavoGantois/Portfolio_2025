@@ -25,6 +25,7 @@ export function HomeProjects() {
                     {project.img && (
                       <Image
                         priority
+                        quality={100}
                         src={project.img}
                         alt={project.title}
                         width={500}
