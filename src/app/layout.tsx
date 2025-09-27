@@ -29,6 +29,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/svg+xml" href="/Logo.svg" />
         <link rel="alternate icon" href="/Logo.svg" />
+        <meta name="google-site-verification" content="M4Pw1J2X-V6c2FotMav2KX72M48-Zvp0Lhnc9Q4qOnI" />
       </head>
       <body
         className={`${plusJakartaSans.variable} ${syne.variable} antialiased`}
