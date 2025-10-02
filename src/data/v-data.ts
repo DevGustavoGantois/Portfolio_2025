@@ -144,7 +144,7 @@ export const homeProjectData = [
         img: "/project6.png",
         title: "Flow Music - Mobile App",
         date: "2025",
-        description: "O Flow é um aplicativo de música que transforma cada momento em uma trilha sonora única. Com uma interface intuitiva e moderna, você pode descobrir novos artistas.",
+        description: "O Flow é um aplicativo de música que transforma cada momento em uma trilha sonora única. Com uma interface intuitiva e moderna, você pode descobrir novos artistas e músicas que se adaptam ao seu estilo.",
         tags: [
           { tag: "UI/UX Design" },
           { tag: "Figma" },
