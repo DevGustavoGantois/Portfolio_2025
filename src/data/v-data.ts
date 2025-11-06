@@ -164,13 +164,6 @@ export const homeProjectData = [
         title: "Headspace - Landing Page",
         date: "2025",
         description: "O Flow é um aplicativo de música que transforma cada momento em uma trilha sonora única. Com uma interface intuitiva e moderna, você pode descobrir novos artistas e músicas que se adaptam ao seu estilo.",
-        tags: [
-          { tag: "UI/UX Design" },
-          { tag: "Figma" },
-          { tag: "Landing Page" },
-          { tag: "Redesign" },
-          { tag: "Website" },
-        ],
         iconFigma: Figma,
         figmaLink: "https://www.figma.com/design/1NqXetZ416QwR9svSo7s5w/Flow-Music---App-Mobile?node-id=0-1&t=pZP8SQoBaS4uXtAa-1",
         iconDev: Code,
