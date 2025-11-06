@@ -158,7 +158,7 @@ export const homeProjectData = [
         linkedinLink: "https://www.linkedin.com/feed/update/urn:li:activity:7386868967119876097/",
         iconLink: Link,
       },
-      {
+       {
         href: "https://www.figma.com/design/76PzbfDCJjevgaDjT592z6/Headspace?node-id=46-691&t=6J17ioYkDgeZLiTN-1",
         img: "/project7.png",
         title: "Headspace - Landing Page",
